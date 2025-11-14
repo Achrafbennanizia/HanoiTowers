@@ -98,21 +98,22 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
+```
 Starten
+```bash
 ./HanoiTowers
+```
 Unter macOS erscheint eine .app in build/.
-🎯 Funktionsweise der Rekursion
+
+### 🎯 Funktionsweise der Rekursion
 Der Algorithmus entspricht der klassischen Definition:
 bewege(n-1, von, nach, hilf)
 bewege(1, von, hilf, nach)
 bewege(n-1, hilf, von, nach)
 Dies führt zu (2^n – 1) Zügen.
-🛠 Erweiterungsmöglichkeiten
+### 🛠 Erweiterungsmöglichkeiten
 QPropertyAnimation für geschmeidige Bewegungsbahnen
 Soundeffekte bei Bewegungen
 Highscore-System / Anzahl benötigter Züge
 Undo/Redo-System
 3D-Version (Qt Quick 3D)
-📚 Lizenz
-Dieses Projekt ist frei editierbar für akademische Zwecke.
-```
