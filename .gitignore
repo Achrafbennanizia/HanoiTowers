@@ -1,0 +1,56 @@
+# --- Build Directories ---
+/build/
+/build-debug/
+/build-release/
+/cmake-build-debug/
+/cmake-build-release/
+
+# --- Qt Creator specific ---
+*.user
+*.user.*
+*.pro.user
+*.creator.user
+*.creator
+
+# --- CMake generated files ---
+CMakeCache.txt
+CMakeFiles/
+/CMakeScripts/
+/Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+_compile_commands.json
+
+# --- macOS ---
+.DS_Store
+*.dSYM/
+*.app/
+
+# --- Windows ---
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# --- Linux ---
+*.so
+*.o
+
+# --- Qt resource compiler ---
+qrc_*.cpp
+
+# --- Logs & temporary ---
+*.log
+*.tmp
+*.swp
+*.swm
+
+# --- IDE files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Generated Qt UI files (if AUTOUIC OFF) ---
+ui_*.h
+
