@@ -30,7 +30,7 @@ Das Projekt demonstriert Rekursion, objektorientierte Modellierung, MVC-Struktur
 ---
 
 ## 📁 Projektstruktur
-
+```bash
 HanoiTowers/
 │
 ├── main.cpp
@@ -49,7 +49,7 @@ HanoiTowers/
 ├── settingsdialog.cpp
 │
 └── CMakeLists.txt
-
+```
 ---
 
 ## 🧠 Software-Architektur
